@@ -1,0 +1,3 @@
+The quick way to get started is to move all the language-specific stuff from your .vimrc file into a file named .vim/ftplugin/language.vim (or $HOME/vimfiles/ftplugin/language.vim on Windows).
+
+If you like most of what Vim's filetype plugin is doing, but you want to override something specific, you can place your settings in .vim/after/ftplugin/language.vim ($HOME/vimfiles/after/ftplugin/language.vim on Windows). See :help after-directory
